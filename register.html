@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Hostel Management System</h1>
+        <p>Student Registration Portal</p>
+    </header>
+
+    <main>
+
+        <div class="form-container registration-card">
+
+            <h2>📝 Student Registration</h2>
+
+            <p class="form-subtitle">
+                Create your account to access hostel services
+            </p>
+
+            <form>
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <label for="student-id">Student ID</label>
+                <input
+                    type="text"
+                    id="student-id"
+                    placeholder="Enter your student ID"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+                <label for="room">Preferred Room Type</label>
+                <select id="room" required>
+                    <option value="">Select room type</option>
+                    <option>Single Room</option>
+                    <option>Double Sharing</option>
+                    <option>Triple Sharing</option>
+                </select>
+
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                    required
+                >
+
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                    type="password"
+                    id="confirm-password"
+                    placeholder="Confirm your password"
+                    required
+                >
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+            <p class="login-link">
+                Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
