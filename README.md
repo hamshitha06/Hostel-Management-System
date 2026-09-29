@@ -63,3 +63,8 @@ for managing common hostel activities.
 \- Tarikha S
 
 \- Branch workflow demonstration by Tarikha
+
+
+\## Room Management
+
+Students can view available hostel rooms.
