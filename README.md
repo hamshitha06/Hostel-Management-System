@@ -62,4 +62,6 @@ for managing common hostel activities.
 
 \- Tarikha S
 
-\- Branch workflow demonstration by Tarikha
+## Project Modules
+
+The system provides hostel services through a simple web interface.
