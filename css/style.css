@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        rgba(20, 30, 80, 0.55),
+        rgba(20, 30, 80, 0.55)
+    ),
+    url("../images/hostel-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    color: #4b3f9f;
+    font-size: 32px;
+}
+
+header p {
+    color: #666;
+    margin-top: 5px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.home {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.home h2 {
+    color: #4b3f9f;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 14px 30px;
+    margin: 8px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.form-container {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #4b3f9f;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.form-container a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+    margin-top: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 8px rgba(102, 126, 234, 0.25);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background: white;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #4b3f9f;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #764ba2;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    flex: 1;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #4b3f9f;
+    margin-bottom: 10px;
+}
+
+.room-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.room-card {
+    background: white;
+    padding: 25px;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.room-card h3 {
+    color: #4b3f9f;
+    margin-bottom: 10px;
+}
+
+.available {
+    color: #16a085;
+    font-weight: bold;
+}
+
+.full {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+th {
+    background: #4b3f9f;
+    color: white;
+}
