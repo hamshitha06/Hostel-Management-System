@@ -62,4 +62,3 @@ for managing common hostel activities.
 
 \- Tarikha S
 
-\- Branch workflow demonstration by Tarikha
