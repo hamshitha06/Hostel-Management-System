@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complaint Management</title>
+
+    <!-- Common project styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tarikha's page-specific styling -->
+    <link rel="stylesheet" href="css/hostel.css">
+</head>
+
+<body>
+
+    <!-- =================================================
+         HEADER
+         ================================================= -->
+
+    <header>
+        <h1>Complaint Management</h1>
+        <p>Report and track hostel complaints</p>
+    </header>
+
+
+    <!-- =================================================
+         NAVIGATION
+         ================================================= -->
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="payment.html">Payments</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="vacate.html">Vacate</a>
+    </nav>
+
+
+    <!-- =================================================
+         MAIN CONTENT
+         ================================================= -->
+
+    <main>
+
+        <!-- Complaint form heading -->
+        <section class="page-title">
+            <h2>Raise a Complaint</h2>
+            <p>
+                Submit an issue related to your hostel room
+                or facilities.
+            </p>
+        </section>
+
+
+        <!-- Complaint form -->
+        <section class="complaint-card">
+
+            <form class="complaint-form">
+
+                <label for="category">
+                    Complaint Category
+                </label>
+
+                <select id="category">
+
+                    <option value="">
+                        Select Category
+                    </option>
+
+                    <option value="water">
+                        Water Supply
+                    </option>
+
+                    <option value="electricity">
+                        Electricity
+                    </option>
+
+                    <option value="maintenance">
+                        Room Maintenance
+                    </option>
+
+                    <option value="cleaning">
+                        Cleaning
+                    </option>
+
+                    <option value="other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <label for="complaint">
+                    Complaint Description
+                </label>
+
+                <textarea
+                    id="complaint"
+                    placeholder="Describe your complaint here..."
+                ></textarea>
+
+
+                <button type="submit">
+                    Submit Complaint
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Complaint history heading -->
+        <section class="page-title">
+            <h2>My Complaints</h2>
+            <p>Track the status of submitted complaints.</p>
+        </section>
+
+
+        <!-- Complaint history table -->
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Complaint</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Water supply issue</td>
+                        <td>25-09-2026</td>
+                        <td>Pending</td>
+                    </tr>
+
+                    <tr>
+                        <td>Room light problem</td>
+                        <td>20-09-2026</td>
+                        <td>Resolved</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

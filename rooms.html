@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Room Management</title>
+
+    <!-- Common project styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tarikha's page-specific styling -->
+    <link rel="stylesheet" href="css/hostel.css">
+</head>
+
+<body>
+
+    <!-- =================================================
+         HEADER
+         ================================================= -->
+
+    <header>
+        <h1>Room Management</h1>
+        <p>View available and occupied hostel rooms</p>
+    </header>
+
+
+    <!-- =================================================
+         NAVIGATION
+         ================================================= -->
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="payment.html">Payments</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="vacate.html">Vacate</a>
+    </nav>
+
+
+    <!-- =================================================
+         MAIN CONTENT
+         ================================================= -->
+
+    <main>
+
+        <!-- Page heading -->
+        <section class="page-title">
+            <h2>Available Rooms</h2>
+            <p>Check room availability and booking status.</p>
+        </section>
+
+
+        <!-- Room cards -->
+        <section class="room-grid">
+
+            <!-- Room A101 -->
+            <div class="room-card-modern">
+                <div class="room-icon">🛏️</div>
+
+                <h3>Room A101</h3>
+
+                <p>Capacity: 2 Students</p>
+                <p>Occupied: 1 Student</p>
+
+                <p class="available">Available</p>
+
+                <button type="button">Book Room</button>
+            </div>
+
+
+            <!-- Room A102 -->
+            <div class="room-card-modern">
+                <div class="room-icon">🛏️</div>
+
+                <h3>Room A102</h3>
+
+                <p>Capacity: 2 Students</p>
+                <p>Occupied: 2 Students</p>
+
+                <p class="full">Full</p>
+
+                <button type="button" disabled>
+                    Unavailable
+                </button>
+            </div>
+
+
+            <!-- Room B201 -->
+            <div class="room-card-modern">
+                <div class="room-icon">🛏️</div>
+
+                <h3>Room B201</h3>
+
+                <p>Capacity: 3 Students</p>
+                <p>Occupied: 1 Student</p>
+
+                <p class="available">Available</p>
+
+                <button type="button">Book Room</button>
+            </div>
+
+
+            <!-- Room B202 -->
+            <div class="room-card-modern">
+                <div class="room-icon">🛏️</div>
+
+                <h3>Room B202</h3>
+
+                <p>Capacity: 3 Students</p>
+                <p>Occupied: 3 Students</p>
+
+                <p class="full">Full</p>
+
+                <button type="button" disabled>
+                    Unavailable
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
