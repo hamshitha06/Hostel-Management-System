@@ -1,64 +1,32 @@
-\# Hostel Management System
+# Hostel Management System - Student Portal
 
-
-
-\## Project Overview
-
-
+## Project Overview
 
 The Hostel Management System is a frontend web application
-
 for managing common hostel activities.
 
+## Features
 
+- Student registration
+- Student login
+- Student dashboard
+- Room availability
+- Room booking
+- Payment management
+- Complaint management
+- Room vacating
 
-\## Features
+## Technologies
 
+- HTML
+- CSS
+- Git
+- GitHub
 
+## Team
 
-\- Student registration
+### ROOMIES
 
-\- Student login
-
-\- Student dashboard
-
-\- Room availability
-
-\- Room booking
-
-\- Payment management
-
-\- Complaint management
-
-\- Room vacating
-
-
-
-\## Technologies
-
-
-
-\- HTML
-
-\- CSS
-
-\- Git
-
-\- GitHub
-
-
-
-\## Team
-
-
-
-\### ROOMIES
-
-
-
-\- Hamshitha P
-
-\- Jothsna Kishore
-
-\- Tarikha S
-
+- Hamshitha P
+- Jothsna Kishore
+- Tarikha S
