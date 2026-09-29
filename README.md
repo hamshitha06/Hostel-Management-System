@@ -68,3 +68,7 @@ for managing common hostel activities.
 \## Room Management
 
 Students can view available hostel rooms.
+
+\## Project Modules
+
+The system provides hostel services through a simple web interface.
