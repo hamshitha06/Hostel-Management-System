@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Vacating</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🏠 Hostel Management System</h1>
+        <p>Room Vacating Request</p>
+    </header>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="payment.html">Payments</a>
+        <a href="complaints.html">Complaints</a>
+        <a href="vacate.html">Vacate</a>
+        <a href="login.html">Logout</a>
+    </nav>
+
+    <main>
+
+        <div class="page-title">
+            <h2>📋 Vacate Room</h2>
+            <p>Submit your room vacating request.</p>
+        </div>
+
+        <div class="vacate-layout">
+
+            <div class="form-container">
+
+                <h2>Vacating Request</h2>
+
+                <div class="current-room">
+
+                    <span>Current Room</span>
+
+                    <strong>A101</strong>
+
+                    <small>Double Sharing</small>
+
+                </div>
+
+                <form>
+
+                    <label for="date">Vacating Date</label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        required
+                    >
+
+                    <label for="reason">Reason for Vacating</label>
+
+                    <select id="reason">
+
+                        <option>Select reason</option>
+                        <option>Course Completion</option>
+                        <option>Transfer</option>
+                        <option>Personal Reasons</option>
+                        <option>Other</option>
+
+                    </select>
+
+                    <label for="comments">Additional Comments</label>
+
+                    <textarea
+                        id="comments"
+                        placeholder="Enter additional information"
+                    ></textarea>
+
+                    <button type="submit">
+                        Submit Vacating Request
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="vacate-info">
+
+                <h2>Before You Vacate</h2>
+
+                <div class="vacate-point">
+                    <span>✓</span>
+                    <p>Clear all pending hostel payments.</p>
+                </div>
+
+                <div class="vacate-point">
+                    <span>✓</span>
+                    <p>Return hostel keys and other belongings.</p>
+                </div>
+
+                <div class="vacate-point">
+                    <span>✓</span>
+                    <p>Ensure there are no pending complaints.</p>
+                </div>
+
+                <div class="vacate-point">
+                    <span>✓</span>
+                    <p>Submit your request before the vacating date.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
