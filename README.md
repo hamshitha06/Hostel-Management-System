@@ -1,4 +1,4 @@
-# Hostel Management System - Student Portal
+# Hostel Management System
 
 ## Student and Room Management Portal
 
