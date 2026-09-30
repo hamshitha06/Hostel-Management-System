@@ -1,6 +1,6 @@
 # Hostel Management System
 
-## Student and Room Management Portal
+## Student Hostel Services Portal
 
 ## Project Overview
 
