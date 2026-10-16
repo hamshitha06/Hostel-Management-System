@@ -1,0 +1,253 @@
+/* =========================================================
+   HOSTEL MANAGEMENT SYSTEM
+   Tarikha's CSS
+   Pages:
+   - rooms.html
+   - payment.html
+   - complaints.html
+   ========================================================= */
+
+
+/* =========================================================
+   COMMON PAGE TITLE
+   ========================================================= */
+
+.page-title {
+    background: rgba(255, 255, 255, 0.96);
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.page-title h2 {
+    color: #4b3f9f;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.page-title p {
+    color: #666;
+}
+
+
+/* =========================================================
+   ROOM MANAGEMENT
+   ========================================================= */
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.room-card-modern {
+    background: rgba(255, 255, 255, 0.97);
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.room-card-modern:hover {
+    transform: translateY(-5px);
+}
+
+.room-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.room-card-modern h3 {
+    color: #4b3f9f;
+    margin-bottom: 12px;
+}
+
+.room-card-modern p {
+    color: #555;
+    margin: 8px 0;
+}
+
+.available {
+    color: #198754;
+    font-weight: bold;
+}
+
+.full {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.room-card-modern button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #4b3f9f;
+    color: white;
+    cursor: pointer;
+}
+
+.room-card-modern button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   PAYMENT PAGE
+   ========================================================= */
+
+.payment-section {
+    margin-bottom: 30px;
+}
+
+.payment-card {
+    background: rgba(255, 255, 255, 0.97);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.payment-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.payment-form input,
+.payment-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.payment-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4b3f9f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.payment-form button:hover {
+    opacity: 0.9;
+}
+
+
+/* =========================================================
+   COMPLAINT PAGE
+   ========================================================= */
+
+.complaint-card {
+    background: rgba(255, 255, 255, 0.97);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.complaint-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.complaint-form select,
+.complaint-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.complaint-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.complaint-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4b3f9f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #4b3f9f;
+    color: white;
+}
+
+tbody tr:hover {
+    background: #f5f3ff;
+}
+
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+@media (max-width: 700px) {
+    .room-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .page-title {
+        padding: 20px;
+    }
+
+    .page-title h2 {
+        font-size: 24px;
+    }
+
+    .room-card-modern {
+        padding: 20px;
+    }
+}

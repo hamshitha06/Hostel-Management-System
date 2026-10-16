@@ -1,0 +1,16 @@
+{
+  "name": "roomies-hostel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/check.js",
+    "staff": "node --env-file-if-exists=.env server/staff.js",
+    "assign": "node --env-file-if-exists=.env server/assign.js"
+  }
+}
